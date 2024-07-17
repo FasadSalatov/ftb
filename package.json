@@ -22,8 +22,7 @@
     "test": "jest --passWithNoTests",
     "check-prettier": "prettier --check ./src",
     "check-types": "tsc --noEmit",
-    "prepublishOnly": "npm run build",
-    "prepare": "husky install"
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
